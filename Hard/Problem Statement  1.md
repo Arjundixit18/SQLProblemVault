@@ -1,8 +1,4 @@
-Here’s a well-designed **Markdown file** you can use to showcase this hard SQL question with multiple solutions. I’ve made it visually **eye-catching** using headers, blockquotes, code blocks, tables, and highlights.
-
 ````markdown
-# 🏥 SQL Challenge – Grouping Patients by Weight Range  
-
 ## 📌 Problem Statement  
 Show all of the patients grouped into **weight groups**.  
 - Each group should represent a range of 10 kg.  
@@ -88,10 +84,3 @@ ORDER BY weight_group DESC;
 🔥 This type of question is common in **SQL interviews** for testing your understanding of **grouping, rounding, and aggregations**.
 
 ---
-
-✨ **Pro Tip**: Practice writing the same logic in **different SQL dialects** (MySQL, PostgreSQL, SQL Server, Oracle) to master cross-platform query writing.
-
-```
-
-Do you want me to also make this Markdown **GitHub-ready** with a **cover banner image + badges** (like "Difficulty: Hard" / "Topic: GROUP BY") so it looks even more professional in your portfolio?
-```
