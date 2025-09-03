@@ -32,6 +32,10 @@ BMI = \frac{weight (kg)}{(height (m))^2} \geq 30
 
 ## 💡 Possible Solutions  
 
+
+````
+
+
 ### ✅ Solution 1 – Using `CASE` Expression  
 ```sql
 SELECT 
@@ -43,8 +47,7 @@ SELECT
         ELSE 0
      END) AS isObese
 FROM patients;
-````
-
+```
 🔎 **Layman Explanation**:
 
 * Convert `height` from cm → meters using `/100.0`.
