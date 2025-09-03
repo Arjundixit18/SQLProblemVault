@@ -1,5 +1,7 @@
 ````markdown
-## 📌 Problem Statement  
+# 🏥 SQL Challenge – Grouping Patients by Weight Range
+
+## 📌 Problem Statement 1
 Show all of the patients grouped into **weight groups**.  
 - Each group should represent a range of 10 kg.  
 - Example:  
@@ -22,6 +24,8 @@ Show all of the patients grouped into **weight groups**.
 
 ## 💡 Possible Solutions  
 
+````
+
 ### ✅ Solution 1 – Using Modulo `%`  
 ```sql
 SELECT 
@@ -30,7 +34,7 @@ SELECT
 FROM patients
 GROUP BY weight_group
 ORDER BY weight_group DESC;
-````
+```
 
 🔎 **Explanation**:
 
@@ -38,6 +42,7 @@ ORDER BY weight_group DESC;
 * Groups patients accordingly and counts them.
 
 ---
+
 
 ### ✅ Solution 2 – Using `TRUNCATE()`
 
@@ -83,4 +88,3 @@ ORDER BY weight_group DESC;
 
 🔥 This type of question is common in **SQL interviews** for testing your understanding of **grouping, rounding, and aggregations**.
 
----
