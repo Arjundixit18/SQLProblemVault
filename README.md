@@ -7,6 +7,7 @@
   <img src="https://media.giphy.com/media/f9k1tV7HyORcngKF8v/giphy.gif" width="350px" alt="SQL GIF">
 </p>
 
+
 ---
 
 ## ✨ Why This Repo?  
