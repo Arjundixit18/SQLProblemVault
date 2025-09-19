@@ -1,5 +1,6 @@
 # 🔥 SQLProblemVault  
 
+
 > A curated collection of **SQL challenges** with clean, optimized solutions — perfect for 💼 interviews, 📖 practice, and 🧠 mastering query logic.  
 
 <p align="center">
