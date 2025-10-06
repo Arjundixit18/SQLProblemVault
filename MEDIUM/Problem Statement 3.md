@@ -35,21 +35,15 @@ Generate the following **two result sets** from the `OCCUPATIONS` table:
 
 ## 📤 Expected Output  
 
-
-Ashely(P)
-Christeen(P)
-Jane(A)
-Jenny(D)
-Julia(A)
-Ketty(P)
-Maria(A)
-Meera(S)
-Priya(S)
-Samantha(D)
-There are a total of 2 doctors.
-There are a total of 2 singers.
-There are a total of 3 actors.
-There are a total of 3 professors.
+| Ashely | P |
+| Christeen | P |
+| Jane | A |
+...
+| Occupation | Count | Statement |
+| doctor | 2 | There are a total of 2 doctors. |
+| singer | 2 | There are a total of 2 singers. |
+| actor | 3 | There are a total of 3 actors. |
+| professor | 3 | There are a total of 3 professors. |
 
 
 
